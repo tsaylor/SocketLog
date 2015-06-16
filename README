@@ -1,0 +1,11 @@
+Requires Websocketd (http://websocketd.com/)
+
+Run this command:
+
+    ./websocketd --port=8080 ./server.sh
+
+Include socketlog.js on your page and call 
+
+    log('log message')
+
+to log a message. See the log messages in /tmp/ws.log.
